@@ -51,9 +51,14 @@ void loop()
     } 
    if(results.value ==  3041532645)
    {
-     resetp();
+     resetp(); //function to reset the driving motor
+   }
+   if(results.value == )
+   {
+   	dirca(); //function to reset the directional motor
    }
       irrecv.resume(); // Receive the next value
+   }
   }
   
 }
