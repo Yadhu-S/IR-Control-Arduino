@@ -1,4 +1,4 @@
-#include <IRremote.h>
+#include <IRremote.h> //custom lib to be downloaded from github
 #include <IRremoteInt.h>
 
 
