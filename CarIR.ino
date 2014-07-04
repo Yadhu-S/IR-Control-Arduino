@@ -2,7 +2,7 @@
 #include <IRremoteInt.h>
 
 
-int RECV_PIN = 8;
+int RECV_PIN = 8; //pin in which ir is connected
 int dir1 = 10;
 int dir2 = 12;
 int mo1 = 5;
