@@ -61,7 +61,11 @@ void loop()
 void resetp()
   {
   	digitalWrite(dir1,LOW);
-        digitalWrite(dir2,LOW);
-        digitalWrite(mo1,LOW);
-        digitalWrite(mo2,LOW);
+    digitalWrite(dir2,LOW);
+        
   }
+void dirca()
+{
+	digitalWrite(mo1,LOW);
+    digitalWrite(mo2,LOW);
+}
