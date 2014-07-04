@@ -7,7 +7,7 @@ int dir1 = 10;
 int dir2 = 12;
 int mo1 = 5;
 int mo2 = 2;
-IRrecv irrecv(RECV_PIN);
+IRrecv irrecv(RECV_PIN); //pin where output pin of the IR sensor is connected.
 
 decode_results results;
 
@@ -18,7 +18,7 @@ void setup()
   pinMode(mo1,OUTPUT);
   pinMode(mo2,OUTPUT);	
   Serial.begin(9600);
-  irrecv.enableIRIn(); // Start the receiver
+  irrecv.enableIRIn(); //function to start the reciver.
 }
 
 void loop() 
