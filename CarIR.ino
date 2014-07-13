@@ -23,7 +23,8 @@ void setup()
 
 void loop() 
 {
-  if (irrecv.decode(&results)) 
+  if (irrecv.decode(&results)) //decode results
+
   {
   	
     Serial.println(results.value,DEC);
